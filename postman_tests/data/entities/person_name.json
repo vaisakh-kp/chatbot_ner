@@ -1,0 +1,53 @@
+[
+  {
+    "input": {
+      "message": "yash doshi",
+      "entity_name": "person_name",
+      "bot_message": "what is your name"
+    },
+    "expected": [
+      {
+        "original_text": "yash doshi",
+        "first_name": "yash",
+        "last_name": "doshi",
+        "middle_name": null,
+        "model_verified": false,
+        "datastore_verified": true
+      }
+    ]
+  },
+  {
+    "input": {
+      "message": "Deep Viral Baweja",
+      "entity_name": "person_name",
+      "bot_message": "what is your name"
+    },
+    "expected": [
+      {
+        "original_text": "Deep Viral Baweja",
+        "first_name": "Deep",
+        "last_name": "Baweja",
+        "middle_name": "Viral",
+        "model_verified": false,
+        "datastore_verified": true
+      }
+    ]
+  },
+  {
+    "input": {
+      "message": "amaan srivastava",
+      "entity_name": "person_name",
+      "bot_message": "what is your name"
+    },
+    "expected": [
+      {
+        "original_text": "amaan srivastava",
+        "first_name": "amaan",
+        "last_name": "srivastava",
+        "middle_name": null,
+        "model_verified": false,
+        "datastore_verified": true
+      }
+    ]
+  }
+]
